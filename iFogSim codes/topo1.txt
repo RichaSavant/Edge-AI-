@@ -1,0 +1,66 @@
+Starting smart healthcare system...
+hr-0-0 is shifting heart-rate north.
+bp-0-0 is shifting blood-pressure north.
+temp-0-0 is shifting temperature north.
+hr-1-0 is shifting heart-rate north.
+bp-1-0 is shifting blood-pressure north.
+temp-1-0 is shifting temperature north.
+hr-2-0 is shifting heart-rate north.
+bp-2-0 is shifting blood-pressure north.
+temp-2-0 is shifting temperature north.
+hr-3-0 is shifting heart-rate north.
+bp-3-0 is shifting blood-pressure north.
+temp-3-0 is shifting temperature north.
+Creating slot-detector on device area-3
+Creating heart-rate on device area-3
+Creating blood-pressure on device area-3
+Creating temperature on device area-3
+Creating slot-detector on device area-0
+Creating heart-rate on device area-0
+Creating blood-pressure on device area-0
+Creating temperature on device area-0
+Creating slot-detector on device area-1
+Creating heart-rate on device area-1
+Creating blood-pressure on device area-1
+Creating temperature on device area-1
+Creating slot-detector on device area-2
+Creating heart-rate on device area-2
+Creating blood-pressure on device area-2
+Creating temperature on device area-2
+0.0 Submitted application healthcare
+=========================================
+============== RESULTS ==================
+=========================================
+EXECUTION TIME : 8009
+=========================================
+APPLICATION LOOP DELAYS
+=========================================
+[ecg, heart-rate, blood-pressure, tempearture, slot-detector, PTZ_CONTROL] ---> 46.043239932625085
+=========================================
+TUPLE CPU EXECUTION DELAY
+=========================================
+slots ---> 1.1714285714278958
+th ---> 1.1718113612005254
+ecg ---> 1.621811361201253
+bp ---> 1.5718113612001616
+=========================================
+cloud : Energy Consumed = 1.332E7
+proxy-server : Energy Consumed = 834332.9999999987
+area-0 : Energy Consumed = 968405.5056972748
+hr-0-0 : Energy Consumed = 5000.0
+bp-0-0 : Energy Consumed = 2000.0
+temp-0-0 : Energy Consumed = 1000.0
+area-1 : Energy Consumed = 968405.5056972748
+hr-1-0 : Energy Consumed = 5000.0
+bp-1-0 : Energy Consumed = 2000.0
+temp-1-0 : Energy Consumed = 1000.0
+area-2 : Energy Consumed = 968405.5056972748
+hr-2-0 : Energy Consumed = 5000.0
+bp-2-0 : Energy Consumed = 2000.0
+temp-2-0 : Energy Consumed = 1000.0
+area-3 : Energy Consumed = 968405.5056972748
+hr-3-0 : Energy Consumed = 5000.0
+bp-3-0 : Energy Consumed = 2000.0
+temp-3-0 : Energy Consumed = 1000.0
+Cost of execution in cloud = 0.0
+Total network usage = 2390.4
